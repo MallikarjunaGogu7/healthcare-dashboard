@@ -1,9 +1,9 @@
-import React from 'react'
 
+import humanImage from "../assets/human-body.jpg"
 const AnatomySection = () => {
   return (
     <div className="anatomy-section">
-      <img src="/src/assets/human-body.jpg" alt="Human Anatomy" />
+      <img src={humanImage} alt="Human Anatomy" />
       <div className="status heart">
         <i className="fas fa-heart"></i> Healthy Heart
       </div>
